@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="B3j-xd-lKI"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ezz-UT-gWU"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1h-qr-kT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -35,20 +34,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Xy-5f-fr5" customClass="chatView" customModule="YuukiCha" customModuleProvider="target">
-                                <rect key="frame" x="20" y="84" width="335" height="563"/>
+                                <rect key="frame" x="20" y="4" width="335" height="643"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="000-o2-850" customClass="chatTextView" customModule="YuukiCha" customModuleProvider="target">
+                                <rect key="frame" x="20" y="4" width="335" height="643"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Xy-5f-fr5" secondAttribute="trailing" constant="20" id="0Hp-21-NtR"/>
                             <constraint firstItem="7Xy-5f-fr5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="O4N-XC-kkb"/>
-                            <constraint firstItem="7Xy-5f-fr5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="XQ6-kb-9vK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="000-o2-850" secondAttribute="bottom" constant="20" id="SXW-2i-m8z"/>
+                            <constraint firstItem="7Xy-5f-fr5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-60" id="XQ6-kb-9vK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="000-o2-850" secondAttribute="trailing" constant="20" id="YXz-A0-00F"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Xy-5f-fr5" secondAttribute="bottom" constant="20" id="cRN-EP-ZEA"/>
+                            <constraint firstItem="000-o2-850" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="epf-PV-H3O"/>
+                            <constraint firstItem="000-o2-850" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-60" id="r85-hd-GnG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="chat" id="toU-kL-bVP"/>
+                    <connections>
+                        <outlet property="chatV" destination="7Xy-5f-fr5" id="S8K-fn-O6q"/>
+                        <outlet property="chattextV" destination="000-o2-850" id="TuI-JR-0Ca"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

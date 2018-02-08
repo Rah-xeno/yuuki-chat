@@ -13,6 +13,27 @@
 		DBAE93AA2027ED8C00A7E471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAE93A92027ED8C00A7E471 /* Assets.xcassets */; };
 		DBAE93AD2027ED8C00A7E471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAE93AB2027ED8C00A7E471 /* LaunchScreen.storyboard */; };
 		DBAE93B52027FF6200A7E471 /* chatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93B42027FF6200A7E471 /* chatView.swift */; };
+		DBAE93B7202804D300A7E471 /* chatLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93B6202804D300A7E471 /* chatLayer.swift */; };
+		DBAE93B9202805B100A7E471 /* dujLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93B8202805B100A7E471 /* dujLayer.swift */; };
+		DBAE93BB20281EC400A7E471 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93BA20281EC400A7E471 /* Message.swift */; };
+		DBAE93C82029A3F600A7E471 /* BezierElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93C72029A3F600A7E471 /* BezierElement.swift */; };
+		DBAE93D9202A9D8B00A7E471 /* BezierFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93D1202A9D8B00A7E471 /* BezierFunctions.m */; };
+		DBAE93DA202A9D8B00A7E471 /* BezierElement.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93D3202A9D8B00A7E471 /* BezierElement.m */; };
+		DBAE93DB202A9D8B00A7E471 /* BezierUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93D4202A9D8B00A7E471 /* BezierUtils.m */; };
+		DBAE93DC202A9D8B00A7E471 /* UIBezierPath+Elements.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93D7202A9D8B00A7E471 /* UIBezierPath+Elements.m */; };
+		DBAE93DF202A9EBC00A7E471 /* BaseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93DD202A9EBC00A7E471 /* BaseGeometry.m */; };
+		DBAE93E5202A9F0B00A7E471 /* Drawing-Text.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93E1202A9F0A00A7E471 /* Drawing-Text.m */; };
+		DBAE93E6202A9F0B00A7E471 /* UIBezierPath+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93E4202A9F0A00A7E471 /* UIBezierPath+Text.m */; };
+		DBAE93E9202A9F9700A7E471 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93E8202A9F9700A7E471 /* Utility.m */; };
+		DBAE93F1202A9FE600A7E471 /* Drawing-Util.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93EE202A9FE600A7E471 /* Drawing-Util.m */; };
+		DBAE93F2202A9FE600A7E471 /* Drawing-Block.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93EF202A9FE600A7E471 /* Drawing-Block.m */; };
+		DBAE93F3202A9FE600A7E471 /* Drawing-Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93F0202A9FE600A7E471 /* Drawing-Gradient.m */; };
+		DBAE93F7202AA00500A7E471 /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93F5202AA00500A7E471 /* ImageUtils.m */; };
+		DBAE93F9202AA70D00A7E471 /* chatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93F8202AA70D00A7E471 /* chatTextView.swift */; };
+		DBAE93FB202AACB400A7E471 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93FA202AACB400A7E471 /* Config.swift */; };
+		DBAE93FD202AEA2400A7E471 /* contentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93FC202AEA2400A7E471 /* contentView.swift */; };
+		DBAE93FF202AF5CB00A7E471 /* AvaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE93FE202AF5CB00A7E471 /* AvaIcon.swift */; };
+		DBAE9401202AFE2500A7E471 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE9400202AFE2500A7E471 /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +45,41 @@
 		DBAE93AC2027ED8C00A7E471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBAE93AE2027ED8C00A7E471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBAE93B42027FF6200A7E471 /* chatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatView.swift; sourceTree = "<group>"; };
+		DBAE93B6202804D300A7E471 /* chatLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatLayer.swift; sourceTree = "<group>"; };
+		DBAE93B8202805B100A7E471 /* dujLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dujLayer.swift; sourceTree = "<group>"; };
+		DBAE93BA20281EC400A7E471 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DBAE93C72029A3F600A7E471 /* BezierElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierElement.swift; sourceTree = "<group>"; };
+		DBAE93CB202A9D5D00A7E471 /* YuukiCha-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YuukiCha-Bridging-Header.h"; sourceTree = "<group>"; };
+		DBAE93D0202A9D8B00A7E471 /* Bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bezier.h; sourceTree = "<group>"; };
+		DBAE93D1202A9D8B00A7E471 /* BezierFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierFunctions.m; sourceTree = "<group>"; };
+		DBAE93D2202A9D8B00A7E471 /* UIBezierPath+Elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Elements.h"; sourceTree = "<group>"; };
+		DBAE93D3202A9D8B00A7E471 /* BezierElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierElement.m; sourceTree = "<group>"; };
+		DBAE93D4202A9D8B00A7E471 /* BezierUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierUtils.m; sourceTree = "<group>"; };
+		DBAE93D5202A9D8B00A7E471 /* BezierElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierElement.h; sourceTree = "<group>"; };
+		DBAE93D6202A9D8B00A7E471 /* BezierUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierUtils.h; sourceTree = "<group>"; };
+		DBAE93D7202A9D8B00A7E471 /* UIBezierPath+Elements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Elements.m"; sourceTree = "<group>"; };
+		DBAE93D8202A9D8B00A7E471 /* BezierFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierFunctions.h; sourceTree = "<group>"; };
+		DBAE93DD202A9EBC00A7E471 /* BaseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGeometry.m; sourceTree = "<group>"; };
+		DBAE93DE202A9EBC00A7E471 /* BaseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGeometry.h; sourceTree = "<group>"; };
+		DBAE93E1202A9F0A00A7E471 /* Drawing-Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Text.m"; sourceTree = "<group>"; };
+		DBAE93E2202A9F0A00A7E471 /* UIBezierPath+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Text.h"; sourceTree = "<group>"; };
+		DBAE93E3202A9F0A00A7E471 /* Drawing-Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Text.h"; sourceTree = "<group>"; };
+		DBAE93E4202A9F0A00A7E471 /* UIBezierPath+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Text.m"; sourceTree = "<group>"; };
+		DBAE93E7202A9F9700A7E471 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		DBAE93E8202A9F9700A7E471 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		DBAE93EB202A9FE600A7E471 /* Drawing-Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Block.h"; sourceTree = "<group>"; };
+		DBAE93EC202A9FE600A7E471 /* Drawing-Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Util.h"; sourceTree = "<group>"; };
+		DBAE93ED202A9FE600A7E471 /* Drawing-Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Gradient.h"; sourceTree = "<group>"; };
+		DBAE93EE202A9FE600A7E471 /* Drawing-Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Util.m"; sourceTree = "<group>"; };
+		DBAE93EF202A9FE600A7E471 /* Drawing-Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Block.m"; sourceTree = "<group>"; };
+		DBAE93F0202A9FE600A7E471 /* Drawing-Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Gradient.m"; sourceTree = "<group>"; };
+		DBAE93F5202AA00500A7E471 /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		DBAE93F6202AA00500A7E471 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		DBAE93F8202AA70D00A7E471 /* chatTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTextView.swift; sourceTree = "<group>"; };
+		DBAE93FA202AACB400A7E471 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DBAE93FC202AEA2400A7E471 /* contentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentView.swift; sourceTree = "<group>"; };
+		DBAE93FE202AF5CB00A7E471 /* AvaIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaIcon.swift; sourceTree = "<group>"; };
+		DBAE9400202AFE2500A7E471 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +115,87 @@
 				DBAE93A22027ED8C00A7E471 /* AppDelegate.swift */,
 				DBAE93A42027ED8C00A7E471 /* ViewController.swift */,
 				DBAE93B42027FF6200A7E471 /* chatView.swift */,
+				DBAE93F8202AA70D00A7E471 /* chatTextView.swift */,
+				DBAE93FE202AF5CB00A7E471 /* AvaIcon.swift */,
+				DBAE93FC202AEA2400A7E471 /* contentView.swift */,
+				DBAE93BA20281EC400A7E471 /* Message.swift */,
+				DBAE93B6202804D300A7E471 /* chatLayer.swift */,
+				DBAE93FA202AACB400A7E471 /* Config.swift */,
+				DBAE93C22029A0B300A7E471 /* extension */,
+				DBAE93B8202805B100A7E471 /* dujLayer.swift */,
 				DBAE93A62027ED8C00A7E471 /* Main.storyboard */,
 				DBAE93A92027ED8C00A7E471 /* Assets.xcassets */,
 				DBAE93AB2027ED8C00A7E471 /* LaunchScreen.storyboard */,
 				DBAE93AE2027ED8C00A7E471 /* Info.plist */,
 			);
 			path = YuukiCha;
+			sourceTree = "<group>";
+		};
+		DBAE93C22029A0B300A7E471 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				DBAE93E0202A9F0A00A7E471 /* Text Drawing */,
+				DBAE93CF202A9D8B00A7E471 /* Bezier */,
+				DBAE93EA202A9FE600A7E471 /* Drawing */,
+				DBAE93F4202AA00500A7E471 /* Image */,
+				DBAE93C72029A3F600A7E471 /* BezierElement.swift */,
+				DBAE93CB202A9D5D00A7E471 /* YuukiCha-Bridging-Header.h */,
+				DBAE9400202AFE2500A7E471 /* extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		DBAE93CF202A9D8B00A7E471 /* Bezier */ = {
+			isa = PBXGroup;
+			children = (
+				DBAE93D0202A9D8B00A7E471 /* Bezier.h */,
+				DBAE93D1202A9D8B00A7E471 /* BezierFunctions.m */,
+				DBAE93D2202A9D8B00A7E471 /* UIBezierPath+Elements.h */,
+				DBAE93D3202A9D8B00A7E471 /* BezierElement.m */,
+				DBAE93D4202A9D8B00A7E471 /* BezierUtils.m */,
+				DBAE93D5202A9D8B00A7E471 /* BezierElement.h */,
+				DBAE93D6202A9D8B00A7E471 /* BezierUtils.h */,
+				DBAE93D7202A9D8B00A7E471 /* UIBezierPath+Elements.m */,
+				DBAE93D8202A9D8B00A7E471 /* BezierFunctions.h */,
+				DBAE93DE202A9EBC00A7E471 /* BaseGeometry.h */,
+				DBAE93DD202A9EBC00A7E471 /* BaseGeometry.m */,
+				DBAE93E7202A9F9700A7E471 /* Utility.h */,
+				DBAE93E8202A9F9700A7E471 /* Utility.m */,
+			);
+			path = Bezier;
+			sourceTree = "<group>";
+		};
+		DBAE93E0202A9F0A00A7E471 /* Text Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				DBAE93E1202A9F0A00A7E471 /* Drawing-Text.m */,
+				DBAE93E2202A9F0A00A7E471 /* UIBezierPath+Text.h */,
+				DBAE93E3202A9F0A00A7E471 /* Drawing-Text.h */,
+				DBAE93E4202A9F0A00A7E471 /* UIBezierPath+Text.m */,
+			);
+			path = "Text Drawing";
+			sourceTree = "<group>";
+		};
+		DBAE93EA202A9FE600A7E471 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				DBAE93EB202A9FE600A7E471 /* Drawing-Block.h */,
+				DBAE93EC202A9FE600A7E471 /* Drawing-Util.h */,
+				DBAE93ED202A9FE600A7E471 /* Drawing-Gradient.h */,
+				DBAE93EE202A9FE600A7E471 /* Drawing-Util.m */,
+				DBAE93EF202A9FE600A7E471 /* Drawing-Block.m */,
+				DBAE93F0202A9FE600A7E471 /* Drawing-Gradient.m */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		DBAE93F4202AA00500A7E471 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DBAE93F5202AA00500A7E471 /* ImageUtils.m */,
+				DBAE93F6202AA00500A7E471 /* ImageUtils.h */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +230,7 @@
 				TargetAttributes = {
 					DBAE939E2027ED8C00A7E471 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,9 +271,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBAE93B9202805B100A7E471 /* dujLayer.swift in Sources */,
+				DBAE93D9202A9D8B00A7E471 /* BezierFunctions.m in Sources */,
 				DBAE93B52027FF6200A7E471 /* chatView.swift in Sources */,
+				DBAE93F7202AA00500A7E471 /* ImageUtils.m in Sources */,
 				DBAE93A52027ED8C00A7E471 /* ViewController.swift in Sources */,
+				DBAE93E6202A9F0B00A7E471 /* UIBezierPath+Text.m in Sources */,
+				DBAE93FD202AEA2400A7E471 /* contentView.swift in Sources */,
+				DBAE93DA202A9D8B00A7E471 /* BezierElement.m in Sources */,
+				DBAE93E5202A9F0B00A7E471 /* Drawing-Text.m in Sources */,
+				DBAE93BB20281EC400A7E471 /* Message.swift in Sources */,
+				DBAE93E9202A9F9700A7E471 /* Utility.m in Sources */,
+				DBAE93DC202A9D8B00A7E471 /* UIBezierPath+Elements.m in Sources */,
+				DBAE93F9202AA70D00A7E471 /* chatTextView.swift in Sources */,
+				DBAE93F3202A9FE600A7E471 /* Drawing-Gradient.m in Sources */,
 				DBAE93A32027ED8C00A7E471 /* AppDelegate.swift in Sources */,
+				DBAE9401202AFE2500A7E471 /* extension.swift in Sources */,
+				DBAE93B7202804D300A7E471 /* chatLayer.swift in Sources */,
+				DBAE93DB202A9D8B00A7E471 /* BezierUtils.m in Sources */,
+				DBAE93F1202A9FE600A7E471 /* Drawing-Util.m in Sources */,
+				DBAE93FF202AF5CB00A7E471 /* AvaIcon.swift in Sources */,
+				DBAE93FB202AACB400A7E471 /* Config.swift in Sources */,
+				DBAE93C82029A3F600A7E471 /* BezierElement.swift in Sources */,
+				DBAE93F2202A9FE600A7E471 /* Drawing-Block.m in Sources */,
+				DBAE93DF202A9EBC00A7E471 /* BaseGeometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JYQ5XDENPB;
 				INFOPLIST_FILE = YuukiCha/Info.plist;
@@ -285,6 +439,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuefeng.YuukiCha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YuukiCha/extension/YuukiCha-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JYQ5XDENPB;
 				INFOPLIST_FILE = YuukiCha/Info.plist;
@@ -301,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuefeng.YuukiCha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YuukiCha/extension/YuukiCha-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
