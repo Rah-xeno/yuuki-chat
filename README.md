@@ -1,3 +1,3 @@
-# yuuki-chat
-Yuuki Yuuna chat app try... some prob
+# Yuuki Yuuna-chat
+结城友奈的聊天的app  ... CA动画还是有点问题...
 ![image](https://github.com/Rah-xeno/yuuki-chat/blob/master/shot/chatgif.gif?raw=true)
